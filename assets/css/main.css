@@ -1,0 +1,21 @@
+*{
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: 1pt;
+  margin: 0;
+}
+
+div {
+  height: 100px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+div:nth-child(1), div:nth-child(3) {
+  background-color: rgb(253, 255, 0);
+}
+
+div:nth-child(2) {
+  background-color: rgb(216, 28, 75);
+}
