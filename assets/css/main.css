@@ -3,15 +3,15 @@
   font-weight: bold;
   font-size: 28px;
   letter-spacing: 1pt;
-  margin: 0;
+  text-align: center;
 }
 
 div {
-  width: 300px;
-  height: 100px;
-  margin: 20px auto;
-  padding-top: 10px;
-  padding-left: 10px;
+  display: inline;
+  position: relative;
+  top: 20px;
+  margin: 0 5px;
+  padding: 10px;
 }
 
 div:nth-child(1), div:nth-child(3) {
